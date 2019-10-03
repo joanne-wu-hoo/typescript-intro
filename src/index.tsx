@@ -1,11 +1,12 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import Hello from './Hello';
+import TodoList from './TodoList';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <Hello name="Typescript"/>,
+  // <Hello name="Typescript"/>,
+  <TodoList />,
   document.getElementById('root') as HTMLElement
 );
 registerServiceWorker();
